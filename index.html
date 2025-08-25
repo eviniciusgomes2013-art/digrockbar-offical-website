@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>DIG ROCK BAR - Cardápio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background: #222;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 3px solid #e63946;
+        }
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #e63946;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .menu-section {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #222;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #0006;
+            padding: 30px;
+        }
+        .menu-section h2 {
+            color: #e63946;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.7em;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #333;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .item-desc {
+            color: #bbb;
+            font-size: 0.95em;
+            margin-left: 10px;
+        }
+        .item-price {
+            color: #e63946;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #222;
+            color: #bbb;
+            margin-top: 40px;
+            border-top: 2px solid #e63946;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DIG ROCK BAR</h1>
+        <nav>
+            <a href="#bebidas">Bebidas</a>
+            <a href="#comidas">Comidas</a>
+            <a href="#porcoes">Porções</a>
+        </nav>
+    </header>
+
+    <section class="menu-section" id="bebidas">
+        <h2>Bebidas</h2>
+        <div class="item">
+            <span>
+                <span class="item-name">Cerveja Long Neck</span>
+                <span class="item-desc">Heineken, Budweiser, Stella Artois</span>
+            </span>
+            <span class="item-price">R$ 12,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Chopp Artesanal</span>
+                <span class="item-desc">IPA, Pilsen, Weiss</span>
+            </span>
+            <span class="item-price">R$ 15,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Refrigerante</span>
+                <span class="item-desc">Coca-Cola, Guaraná, Fanta</span>
+            </span>
+            <span class="item-price">R$ 7,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Drinks Rock</span>
+                <span class="item-desc">Jack & Coke, Gin Tônica, Caipirinha</span>
+            </span>
+            <span class="item-price">R$ 18,00</span>
+        </div>
+    </section>
+
+    <section class="menu-section" id="comidas">
+        <h2>Comidas</h2>
+        <div class="item">
+            <span>
+                <span class="item-name">Hambúrguer Rock</span>
+                <span class="item-desc">Pão artesanal, carne 180g, queijo cheddar, bacon, molho especial</span>
+            </span>
+            <span class="item-price">R$ 28,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Sanduíche Vegano</span>
+                <span class="item-desc">Hambúrguer de grão de bico, salada, molho vegano</span>
+            </span>
+            <span class="item-price">R$ 24,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Hot Dog Classic</span>
+                <span class="item-desc">Salsicha, molho, batata palha, queijo</span>
+            </span>
+            <span class="item-price">R$ 16,00</span>
+        </div>
+    </section>
+
+    <section class="menu-section" id="porcoes">
+        <h2>Porções</h2>
+        <div class="item">
+            <span>
+                <span class="item-name">Batata Frita</span>
+                <span class="item-desc">Porção generosa com molho da casa</span>
+            </span>
+            <span class="item-price">R$ 20,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Onion Rings</span>
+                <span class="item-desc">Anéis de cebola empanados</span>
+            </span>
+            <span class="item-price">R$ 18,00</span>
+        </div>
+        <div class="item">
+            <span>
+                <span class="item-name">Frango Crocante</span>
+                <span class="item-desc">Tiras de frango empanadas</span>
+            </span>
+            <span class="item-price">R$ 25,00</span>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 DIG ROCK BAR - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
